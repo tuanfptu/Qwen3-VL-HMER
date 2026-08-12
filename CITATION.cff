@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the associated paper."
+title: "Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition"
+type: software
+authors:
+  - family-names: Ha
+    given-names: Manh Tuan
+    orcid: "https://orcid.org/0009-0004-7583-1148"
+  - family-names: Tran
+    given-names: Xuan Bao Viet
+    orcid: "https://orcid.org/0009-0000-4975-0601"
+  - family-names: Nguyen
+    given-names: Vo Minh Dat
+    orcid: "https://orcid.org/0009-0000-7772-8436"
+  - family-names: Vo
+    given-names: Minh Nhat
+    orcid: "https://orcid.org/0009-0004-9580-581X"
+  - family-names: Nguyen
+    given-names: Quoc Trung
+    orcid: "https://orcid.org/0000-0002-5500-3554"
+  - family-names: Nguyen
+    given-names: Van Bay
+    orcid: "https://orcid.org/0009-0000-7474-5193"
+repository-code: "https://github.com/tuanfptu/handwritten-math-recognition"
+license: "LicenseRef-Proprietary"
+preferred-citation:
+  type: conference-paper
+  title: "Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition"
+  authors:
+    - family-names: Ha
+      given-names: Manh Tuan
+    - family-names: Tran
+      given-names: Xuan Bao Viet
+    - family-names: Nguyen
+      given-names: Vo Minh Dat
+    - family-names: Vo
+      given-names: Minh Nhat
+    - family-names: Nguyen
+      given-names: Quoc Trung
+    - family-names: Nguyen
+      given-names: Van Bay
+  conference:
+    name: "International Symposium on Semantic Intelligence in Massive Computing (SIMC 2026)"
+  year: 2026
