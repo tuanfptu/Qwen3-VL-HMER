@@ -12,7 +12,7 @@ Official research repository for our Qwen3-VL approach to handwritten mathematic
 [![Framework](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-CROHME_2019-4c8bf5)](#dataset)
 
-[Paper](docs/paper.pdf) · [Demo](#demo) · [Results](#main-results) · [Installation](#installation) · [Citation](#citation)
+[Paper](docs/paper.pdf) · [Results](#main-results) · [Installation](#installation) · [Citation](#citation)
 
 </div>
 
@@ -28,7 +28,7 @@ The model is instruction-tuned to generate linearized Symbol Label Graphs (SLGs)
 - A controlled comparison with zero-shot Qwen3-VL, Qwen2.5-VL, IM2TEX, and a ViT-Transformer baseline.
 - An ablation on 2,000 manually written, formula-guided samples.
 - Error analysis separating symbol-recognition failures from output-grammar failures.
-- Training, evaluation, preprocessing, annotation, API, and interactive demo code.
+- Training, evaluation, preprocessing, annotation, API, and inference interface code.
 
 ## Authors
 
@@ -73,12 +73,6 @@ symbols + spatial-relation tokens
 ```
 
 The repository also retains the internally implemented ViT/Hybrid encoder and autoregressive Transformer decoder used as a task-specific baseline.
-
-## Demo
-
-https://github.com/user-attachments/assets/4821be03-e62f-48c6-9597-fb6648b1f6e7
-
-The interactive applications accept a handwritten formula image and return LaTeX or a linearized label graph. Browser, Streamlit, and Gradio clients are available under [`apps/web/`](apps/web/).
 
 ## Installation
 
@@ -176,7 +170,7 @@ See [`models/README.md`](models/README.md) for placement details. For public dis
 ```text
 .
 ├── apps/          # Inference API, Docker deployment, and UI clients
-├── assets/        # Demo recording and example inputs
+├── assets/        # Example inputs and supporting media
 ├── data/          # CROHME metadata, samples, and tokenizer
 ├── docs/          # Paper, reproducibility guide, and experiment figures
 ├── models/        # Local checkpoints (ignored by Git)
