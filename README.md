@@ -4,7 +4,10 @@
 
 Official research repository for our Qwen3-VL approach to handwritten mathematical expression recognition (HMER) on CROHME 2019.
 
+**Accepted at the [International Symposium on Semantic Intelligence in Massive Computing (SIMC 2026)](https://www.simc-conf.org/).**
+
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b?logo=adobeacrobatreader&logoColor=white)](docs/paper.pdf)
+[![Conference](https://img.shields.io/badge/SIMC_2026-Accepted-2ea44f)](https://www.simc-conf.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-CROHME_2019-4c8bf5)](#dataset)
@@ -190,7 +193,7 @@ If this repository supports your work, please cite the paper. A machine-readable
 @inproceedings{ha2026qwen3vlhmer,
   title     = {Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition},
   author    = {Ha, Manh Tuan and Tran, Xuan Bao Viet and Nguyen, Vo Minh Dat and Vo, Minh Nhat and Nguyen, Quoc Trung and Nguyen, Van Bay},
-  booktitle = {Proceedings of SIMC 2026},
+  booktitle = {Proceedings of the International Symposium on Semantic Intelligence in Massive Computing (SIMC 2026)},
   year      = {2026}
 }
 ```
