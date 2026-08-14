@@ -15,11 +15,9 @@ Official implementation of our Qwen3-VL approach to handwritten mathematical exp
 
 </div>
 
-## Overview
+## Abstract
 
-We formulate handwritten mathematical expression recognition (HMER) as multimodal structural generation. A 4-bit Qwen3-VL-4B model is adapted with rank-16 LoRA/QLoRA to generate linearized Symbol Label Graphs (SLGs), including both mathematical symbols and their spatial relations.
-
-On 1,198 valid CROHME 2019 test expressions, the best configuration achieves **43.74% exact match (524/1,198)** and **77.67 BLEU-4**. Adding 2,000 manually written samples reduces performance slightly, highlighting the importance of domain alignment in data augmentation.
+Handwritten mathematical expression recognition (HMER) requires joint recovery of symbol identity and two-dimensional syntax, so a locally plausible transcription may still be structurally wrong. We study whether a compact vision--language model can be adapted to generate linearized Symbol Label Graphs (SLGs) under limited computing resources. Starting from a 4-bit Qwen3-VL-4B checkpoint, we apply rank-16 Low-Rank Adaptation to the vision, language, attention, and MLP modules and train with instruction-formatted CROHME 2019 examples. We compare this model with an internally implemented ViT--Transformer baseline, a zero-shot Qwen3-VL configuration, and additional internally evaluated alternatives. On the 1,198 valid CROHME test examples, the CROHME-only model obtains 524 exact matches (43.74\%) and a corpus BLEU-4 score of 77.67, compared with 4.92\% and 43.26 for the task-specific ViT baseline. An ablation that adds 2,000 manually written, formula-guided samples decreases exact match to 42.32\%, exposing a domain-alignment issue rather than an automatic benefit from more data. The principal contribution is therefore an evidence-backed, resource-efficient formulation of HMER as multimodal structural generation, together with a controlled data-composition ablation and an analysis of the remaining gap between local token overlap and globally correct structure.
 
 ## Results
 
