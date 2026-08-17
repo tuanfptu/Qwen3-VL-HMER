@@ -4,7 +4,7 @@
 
 Official implementation of our Qwen3-VL approach to handwritten mathematical expression recognition on CROHME 2019.
 
-**Accepted(Publish soon) at the [International Symposium on Semantic Intelligence in Massive Computing (SIMC 2026)](https://www.simc-conf.org/).**
+**Accepted (Publish soon) at the [International Symposium on Semantic Intelligence in Massive Computing (SIMC 2026)](https://www.simc-conf.org/).**
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b?logo=adobeacrobatreader&logoColor=white)](docs/paper.pdf)
 [![Conference](https://img.shields.io/badge/SIMC_2026-Accepted-2ea44f)](https://www.simc-conf.org/)
