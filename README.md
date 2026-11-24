@@ -10,7 +10,7 @@ Official implementation of our Qwen3-VL approach to handwritten mathematical exp
 
 [![arXiv](https://img.shields.io/badge/arXiv-2611.27208-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.27208)
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b?logo=adobeacrobatreader&logoColor=white)](https://arxiv.org/pdf/2611.27208)
-[![Conference](https://img.shields.io/badge/SIMC_2026-Accepted-2ea44f)](https://www.simc-conf.org/)
+[![Conference](https://img.shields.io/badge/SIMC_2026-2ea44f)](https://www.simc-conf.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 
